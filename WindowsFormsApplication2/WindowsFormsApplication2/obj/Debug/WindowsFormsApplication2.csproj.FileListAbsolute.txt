@@ -15,3 +15,20 @@ C:\Users\SindreDahl\Dropbox\Personlig Stuff\Visual Studio 2013\Projects\WindowsF
 C:\Users\SindreDahl\Dropbox\Personlig Stuff\Visual Studio 2013\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.application
 C:\Users\SindreDahl\Dropbox\Personlig Stuff\Visual Studio 2013\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.AboutBox1.resources
 C:\Users\SindreDahl\Dropbox\Personlig Stuff\Visual Studio 2013\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.ImageBoxForm.resources
+C:\Users\SindreDahl\Documents\media-windows-db\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\SindreDahl\Documents\media-windows-db\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\SindreDahl\Documents\media-windows-db\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\SindreDahl\Documents\media-windows-db\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.manifest
+C:\Users\SindreDahl\Documents\media-windows-db\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.application
+C:\Users\SindreDahl\Documents\media-windows-db\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\SindreDahl\Documents\media-windows-db\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\SindreDahl\Documents\media-windows-db\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\SindreDahl\Documents\media-windows-db\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\SindreDahl\Documents\media-windows-db\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+C:\Users\SindreDahl\Documents\media-windows-db\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.AboutBox1.resources
+C:\Users\SindreDahl\Documents\media-windows-db\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\SindreDahl\Documents\media-windows-db\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.ImageBoxForm.resources
+C:\Users\SindreDahl\Documents\media-windows-db\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\SindreDahl\Documents\media-windows-db\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+C:\Users\SindreDahl\Documents\media-windows-db\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe.manifest
+C:\Users\SindreDahl\Documents\media-windows-db\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.application

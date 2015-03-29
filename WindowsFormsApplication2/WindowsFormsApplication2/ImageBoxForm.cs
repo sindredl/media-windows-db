@@ -18,6 +18,13 @@ namespace WindowsFormsApplication2
            // posterPicBox.Load(picUrl);
             posterPicBox.Image = img;
             posterPicBox.SizeMode = PictureBoxSizeMode.Zoom;
+           // ImgBoxLowerTxtBox.Text = txt;
         }
+
+        private void posterPicBox_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

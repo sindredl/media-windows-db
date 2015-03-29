@@ -4,6 +4,7 @@ using System.Drawing;
 using System.IO;
 using System.Net;
 using System.Runtime.InteropServices;
+using System.Security.AccessControl;
 using System.Windows.Controls;
 using System.Windows.Forms;
 using System.Windows.Media;
@@ -17,6 +18,7 @@ namespace WindowsFormsApplication2
     {
         string StringA { get; set; }
         string StringB { get; set; }
+        string MovieName { get; set; }
         int x = 10;
         int y = 10;
         private string currenPoster;
@@ -27,7 +29,7 @@ namespace WindowsFormsApplication2
 
         public Form1()
         {
-
+            
             InitializeComponent();
             button1.Hide();
             textBox2.BackColor = SystemColors.Window;
@@ -64,6 +66,7 @@ namespace WindowsFormsApplication2
                 tabPage4popTv.Controls.Add(getTextBoxTv(x, y, tv["original_name"].ToString()));
                 tabPage4popTv.Controls.Add(getPictureBoxTv(x, y, "http://image.tmdb.org/t/p/w300" + tv["backdrop_path"]));
                 StringB = movie["poster_path"].ToString();
+
             //    Console.WriteLine(StringB);
                 
 
@@ -204,6 +207,8 @@ namespace WindowsFormsApplication2
             tempBox.TabIndex = 6;
             tempBox.Padding = new System.Windows.Forms.Padding(3);
             tempBox.Text = title;
+            tempBox.Click += new System.EventHandler(textBox_Click);
+            tempBox.Cursor = Cursors.Hand;
             return tempBox;
         }
 
@@ -234,6 +239,8 @@ namespace WindowsFormsApplication2
             tvBox.TabIndex = 6;
             tvBox.Padding = new System.Windows.Forms.Padding(3);
             tvBox.Text = title;
+            tvBox.Click += new System.EventHandler(textBox_Click);
+            tvBox.Cursor = Cursors.Hand;
             return tvBox;
         }
 
@@ -308,13 +315,17 @@ namespace WindowsFormsApplication2
         private void picBox_Click(object sender, EventArgs e)
         {
             PictureBox pic = (PictureBox)sender;
-            
-           // var pic = "http://image.tmdb.org/t/p/w300" + currentPoster;
             ImageBoxForm m = new ImageBoxForm(pic.Image);
-            
             m.ShowDialog();
-            //MessageBox.Show("http://image.tmdb.org/t/p/w300" + StringB);
-            Console.WriteLine(StringB);
+           // Console.WriteLine();
+        }
+
+        private void textBox_Click(object sender, EventArgs e)
+        {
+            TextBox text = (TextBox) sender;
+           // Console.WriteLine(text.Text);
+            Process.Start("http://www.imdb.com/find?s=all&q=" + text.Text);
+
         }
 
         private void TopMovies(string element)
