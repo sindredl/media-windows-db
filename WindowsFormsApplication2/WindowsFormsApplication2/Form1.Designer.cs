@@ -48,6 +48,8 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tabPage3popMovies = new System.Windows.Forms.TabPage();
             this.tabPage4popTv = new System.Windows.Forms.TabPage();
+            this.textBoxDirector = new System.Windows.Forms.TextBox();
+            this.textBoxWriter = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -128,6 +130,8 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.textBoxWriter);
+            this.tabPage2.Controls.Add(this.textBoxDirector);
             this.tabPage2.Controls.Add(this.textBoxRuntimeGenere);
             this.tabPage2.Controls.Add(this.textBoxAwards);
             this.tabPage2.Controls.Add(this.pictureBox4Awards);
@@ -255,6 +259,22 @@
             this.tabPage4popTv.Text = "Popular TV";
             this.tabPage4popTv.UseVisualStyleBackColor = true;
             // 
+            // textBoxDirector
+            // 
+            this.textBoxDirector.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxDirector.Location = new System.Drawing.Point(392, 259);
+            this.textBoxDirector.Name = "textBoxDirector";
+            this.textBoxDirector.Size = new System.Drawing.Size(159, 13);
+            this.textBoxDirector.TabIndex = 10;
+            // 
+            // textBoxWriter
+            // 
+            this.textBoxWriter.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxWriter.Location = new System.Drawing.Point(392, 287);
+            this.textBoxWriter.Name = "textBoxWriter";
+            this.textBoxWriter.Size = new System.Drawing.Size(159, 13);
+            this.textBoxWriter.TabIndex = 11;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -303,6 +323,8 @@
         private System.Windows.Forms.TextBox textBoxRuntimeGenere;
         private System.Windows.Forms.TabPage tabPage3popMovies;
         private System.Windows.Forms.TabPage tabPage4popTv;
+        private System.Windows.Forms.TextBox textBoxWriter;
+        private System.Windows.Forms.TextBox textBoxDirector;
 
 
 

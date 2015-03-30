@@ -116,6 +116,8 @@ namespace WindowsFormsApplication2
             var released = o["Released"];
             var runtime = o["Runtime"];
             var genre = o["Genre"];
+            var director = o["Director"];
+            var writer = o["Writer"];
 
 
             var respString = resp.ToString();
@@ -131,6 +133,8 @@ namespace WindowsFormsApplication2
                 var movieReleased = released.ToString();
                 var moveRuntime = runtime.ToString();
                 var movieGenere = genre.ToString();
+                var directedBy = director.ToString();
+                var writtenBy = writer.ToString();
                 richTextBox1.Text = plott;
                 StringA = imdbId.ToString();
 
@@ -148,6 +152,9 @@ namespace WindowsFormsApplication2
                 textBoxRating.Text = "Ratings " + rating + "/10 from " + imdbVotes + " users";
                 textBoxAwards.Text = movieAwards;
                 textBoxRuntimeGenere.Text = moveRuntime + " | " + movieGenere + " | " + movieReleased;
+                textBoxDirector.Text = "Directed by: " + directedBy;
+                textBoxWriter.Text = "Written by: " + writtenBy;
+
 
                 if (img == "N/A")
                 {
